@@ -36,6 +36,15 @@ body
     background-color: #D2B833;
     color: #000000;
 }
+
+#heading 
+{
+    color:#D2B833;
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    font-size: 43px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
