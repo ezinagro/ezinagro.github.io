@@ -37,3 +37,11 @@ html, body {
     position:relative;
     z-index:2;
 }
+
+
+/*custom bootstrap styling*/
+
+.navbar-default {
+    
+    background-color: transparent;
+}
