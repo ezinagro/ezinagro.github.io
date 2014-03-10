@@ -1,0 +1,40 @@
+/* visual styles */
+body{
+    margin:0;
+    font-family:sans-serif;
+    font-size:40px;
+    color:#ffffff;
+    text-align:center;
+}
+.fullscreen-cont {
+    margin-bottom:2px;
+}
+
+/* fullscreen setup */
+html, body {
+    /* all the tags up to .fullscreen-cont must have this style */
+    height:100%;
+}
+.fullscreen-cont,
+.fullscreen-img {
+    display:block;
+    position:relative;
+    min-width:100%;
+    min-height:100%;
+}
+
+/* content styles */
+.fullscreen-img {
+    display:block;
+    position:absolute;
+    z-index:1;
+    background:transparent url('/images/bg.jpg') center center no-repeat;
+    background-size:cover;
+    /* background position when .fullscreen-img overflows */
+    background-position:50% 50%;
+}
+.content {
+    display:block;
+    position:relative;
+    z-index:2;
+}
