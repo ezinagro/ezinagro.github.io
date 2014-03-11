@@ -38,7 +38,9 @@ html, body {
     z-index:2;
 }
 
-
+.center {
+    text-align: center;
+}
 /*custom bootstrap styling*/
 
 .navbar.transparent.navbar-inverse .navbar-inner {
