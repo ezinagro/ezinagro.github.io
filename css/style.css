@@ -15,8 +15,9 @@ html, body {
 
 /* content styles */
 .content {
-    background-image: url(images/bg.jpg);
-    background-size:cover;
+    background: url("../images/bg.jpg");
+    border-bottom: 5px solid #E8432E;
+    position: relative;
 }
 
 .desc h2 {
