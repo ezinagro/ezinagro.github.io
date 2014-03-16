@@ -1,0 +1,471 @@
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,900,700);
+
+/* OVERALL ASPECT */
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* general */
+
+.spacing i {
+	padding-left: 8px;
+	padding-right: 8px
+}
+/* margin top & Bottom */
+.pad {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.si:hover {
+	background-color: #ffffff;
+}
+
+.si i {
+	font-size: 40px;
+	padding: 20px;
+}
+
+/* Padding top & bottom */
+.pt {
+	padding-top: 15px;
+	padding-bottom: 15px; 
+}
+
+/* Description Styling / Used in portfolio & Blog images footnotes */
+.desc p {
+	font-family: 'Ruda', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+.desc p > i {
+	font-size: 16px;
+	color: #979797;
+}
+
+.desc p > i:hover {
+	font-size: 16px;
+	color: #e74c3c;
+	cursor: pointer;
+}
+
+.desc p.lead {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.desc p.time {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0px;
+	color: #979797;
+	text-align: right;
+}
+
+.desc p.time > i {
+	font-size: 12px;
+}
+
+
+/* Dashed Separator */
+
+hr-d {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dashed #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+p.capitalize {
+	display:block;
+	text-align: left;
+}
+
+p.capitalize:first-letter {
+	text-transform:capitalize; 
+	font-size: 30px;
+	font-family: 'Ruda', sans-serif;
+	font-weight: 400;
+	color:white; 
+	padding-left:10px; 
+	padding-right:10px; 
+	margin-right:5px;
+	background: rgba(0, 0, 0, 0.76); 
+}
+
+/**** Navigation *****/
+
+.navbar-default {
+border-color: transparent;
+background-color: white;
+}
+
+
+.navbar-toggle {
+border-color: white;
+border: 0px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #c44235;
+	color: white;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/* ================== MAIN WRAP SECTIONS ================== */
+
+#header {
+	background: url(../img/bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top: 50px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header h1 {
+	margin-top: 60px;
+	color: white;
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+#header h2 {
+	color: white;
+
+}
+
+#header {
+	margin: 0 auto;
+}
+
+/* Color Wraps */
+#process-steps {
+	margin-top: 0px;
+	background-color: #ffffff;
+	min-height: 300px;
+	width: 100%;
+}
+
+#grey {
+	margin-top: 0px;
+	background-color: #f7f7f7;
+	min-height: 300px;
+	width: 100%;	
+}
+
+#process {
+	margin-top: 0px;
+	background-color: #2f2f2f;
+	min-height: 300px;
+	width: 100%;	
+}
+
+#process h3 {
+	color: white;
+}
+
+#process h4 {
+	color: white;
+	text-transform: uppercase
+}
+
+#process p {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#process i {
+	font-size: 35px;
+}
+
+#process h1 {
+	color: white;
+	font-size: 70px;
+}
+
+/*dividers */
+
+
+#divider1 {
+	background-color: #46912c;
+	margin-top: 0px;
+	padding-top:100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#divider1 h2 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+#divider2 {
+	background-color: #ea7c7c;
+	margin-top: 0px;
+	padding-top:100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#divider2 h1 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 25px;
+	font-size: 60px;
+}
+
+#divider2 h2 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+#divider2 i {
+	color: white;
+	font-size: 45px;
+}
+
+/*Services*/
+.desc-services {
+    padding-left: 5px;
+}
+
+/* team */
+#team {
+	margin-top: 0px;
+	background-color: #ffffff;
+	min-height: 300px;
+	width: 100%;
+    padding-bottom: 35px;
+}
+.team-info {
+  position: relative;
+  bottom: 10px;
+  right: 0px;
+  padding: 10px 10px 10px 10px;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.90);
+}
+.subhead {
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.team-name {
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: -1px;
+  padding-top: 10px;
+}
+
+.team-description {
+	color: white;
+	padding-top: 40px;
+}
+
+.team-description i {
+	margin: 8px;
+}
+
+/* Team Member Stats Icons Conf */
+.team-stat i {
+	font-size: 28px;
+}
+
+/*contact us*/
+ .contact-icons {
+    padding: 5px 35px;
+}
+
+.contact-icons > span {
+    font-size: 100px;
+}
+
+a.contact-icons:link {color:inherit;}      /* unvisited link */
+a.contact-icons:visited {color:inherit;}  /* visited link */
+a.contact-icons:hover {
+    color:inherit;                
+}  /* mouse over link */
+a.contact-icons:active {color:inherit;}  /* selected link */ 
+
+/*activity*/
+#activity {
+	margin-top: 0px;
+	background-color: #2f2f2f;
+	min-height: 300px;
+	width: 100%;	
+}
+
+#activity h3 {
+	color: white;
+}
+
+#activity h4 {
+	color: white;
+	text-transform: uppercase
+}
+
+#activity p {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#activity i {
+	font-size: 35px;
+}
+
+#activity h1 {
+	color: white;
+	font-size: 70px;
+}
+
+/*footer*/
+#footerwrap {
+	background: #2F2F2F;
+	margin-top: 0px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+#footerwrap h4 {
+	color: white;
+}
+
+
+@media (max-width: 600px) { 
+
+#header h1 {
+	font-size: 35px;
+}
+	
+}
+
+
+
+
